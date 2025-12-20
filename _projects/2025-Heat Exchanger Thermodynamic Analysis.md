@@ -87,6 +87,12 @@ We performed two trials of the experiment with the same starting temperature in 
 
 <p style="font-size:0.9em; color:#444;"><em>*Both trials were performed in parallel flow through the heat exchanger</em></p>
 
+```html
+<figure style="max-width:600px; margin:0 auto;">
+  <img src="{{ '/assets/images/Heat Exchanger Setup.jpg' | relative_url }}" alt="Short description" style="width:100%; height:auto; transform:rotate(90deg);">
+  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Figure 1: Caption text here.</figcaption>
+</figure>
+```
 
 <html lang="en">
 <head>
@@ -192,9 +198,10 @@ c_p & : \text{Specific heat of water}
 \ge 0
 \]
 
-
-
-
+<figure style="max-width:600px; margin:0 auto;">
+  <img src="{{ '/assets/images/Real Heat Exchanger.jpg' | relative_url }}" alt="Short description" style="width:100%; height:auto;">
+  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Figure 1: Caption text here.</figcaption>
+</figure>
 
 <h5>How Slower Flow Rate Effects Efficiency:</h5>
 The change we chose to investigate was changing the flow rate that the pump was moving water into the heat exchanger. Initially, we started with the same fast flow rate for each reservoir, and in the second round switched both the hot and cold reservoir pumps to the slower flow rate. 
