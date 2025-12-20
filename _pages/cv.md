@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "assets/holbrook-langley-resume.pdf" | relative_url }}) in PDF format.
 
 **Email:** [hdl46@cornell.edu](mailto:hdl46@cornell.edu) | **Phone:** (914) 656-0906 | **Location:** Rye, NY  
 **LinkedIn:** [linkedin.com/in/holbrook-langley](https://linkedin.com/in/holbrook-langley)
