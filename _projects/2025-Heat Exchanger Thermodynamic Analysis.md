@@ -87,12 +87,11 @@ We performed two trials of the experiment with the same starting temperature in 
 
 <p style="font-size:0.9em; color:#444;"><em>*Both trials were performed in parallel flow through the heat exchanger</em></p>
 
-```html
-<figure style="max-width:600px; margin:0 auto;">
-  <img src="{{ '/assets/images/Heat Exchanger Setup.jpg' | relative_url }}" alt="Short description" style="width:100%; height:auto; transform:rotate(90deg);">
-  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Figure 1: Caption text here.</figcaption>
+
+<figure style="max-width:600px; margin:0 auto; text-align:center">
+  <img src="{{ '/assets/images/Heat Exchanger Setup.jpg' | relative_url }}" alt="Short description" style="width:75%; height:75%; transform:rotate(270deg);">
+  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Heat Exchanger Flow Setup</figcaption>
 </figure>
-```
 
 <html lang="en">
 <head>
@@ -200,7 +199,7 @@ c_p & : \text{Specific heat of water}
 
 <figure style="max-width:600px; margin:0 auto;">
   <img src="{{ '/assets/images/Real Heat Exchanger.jpg' | relative_url }}" alt="Short description" style="width:100%; height:auto;">
-  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Figure 1: Caption text here.</figcaption>
+  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Heat Exchanger Used</figcaption>
 </figure>
 
 <h5>How Slower Flow Rate Effects Efficiency:</h5>
