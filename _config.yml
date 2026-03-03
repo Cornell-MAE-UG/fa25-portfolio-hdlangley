@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-
+# (removed code fence)
 # Site Settings
 locale                   : "en-US"
 title                    : Holbrook Langley
@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : Cornell Engineering Undergraduate
 name                     : Holbrook Langley
 description              : Holbrook Langley - Projects and CV 
-baseurl                  : "/portfolio-fa25-fa25-portfolio-portolios/" # Set this to your repo name
+baseurl                  : "/fa25-portfolio-hdlangley/" # Set this to your repo name 
 url                      : "https://cornell-mae-ug.github.io"
 repository               : "Cornell-MAE-UG/portfolio-fa25-fa25-portfolio-portolios"
 
@@ -44,4 +44,5 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
+# (removed trailing code fence)
 
