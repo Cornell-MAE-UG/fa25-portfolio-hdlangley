@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : Cornell Engineering Undergraduate
 name                     : Holbrook Langley
 description              : Holbrook Langley - Projects and CV 
-baseurl                  : "/fa25-portfolio-hdlangley/" # Set this to your repo name 
+baseurl                  : "/sp26-portfolio-hdlangley/" # Set this to your repo name 
 url                      : "https://cornell-mae-ug.github.io"
 repository               : "Cornell-MAE-UG/portfolio-fa25-fa25-portfolio-portolios"
 
