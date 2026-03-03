@@ -12,25 +12,25 @@ The goal of this project is to create an effictive hand held design for a Macada
 <h5>Constraints and Input Parameters:</h5>
 The primary constraints are based on the force required to break a typical Macadamia Nut, its dimensions, and typical human grip strength. From these constraints the ideal handle length can be calculated.
 
-<table>
+<table style="margin:0 auto; border-collapse:collapse;">
   <thead>
     <tr>
-      <th>Constraint</th>
-      <th>Value</th>
+      <th style="padding:8px 12px; border-bottom:2px solid #333;">Constraint</th>
+      <th style="padding:8px 12px; border-bottom:2px solid #333;">Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Force required</td>
-      <td>222 kg</td>
+      <td style="padding:6px 12px;">Force Required</td>
+      <td style="padding:6px 12px;">222 kg</td>
     </tr>
     <tr>
-      <td>Grip Strength</td>
-      <td>30 kg</td>
+      <td style="padding:6px 12px;">Grip Strength</td>
+      <td style="padding:6px 12px;">30 kg</td>
     </tr>
     <tr>
-      <td>Nut Size</td>
-      <td>2 cm</td>
+      <td style="padding:6px 12px;">Nut Size</td>
+      <td style="padding:6px 12px;">2 cm</td>
     </tr>
   </tbody>
 </table>
@@ -90,7 +90,8 @@ The calculated length of 29.6 cm is quite large for a nutcracker, especially one
 
 Due to this large size, the applied force could instead be increased by incorporating a linear actuator. This modification would allow the design to be more compact and easier to use. However, it would also eliminate the possibility of the device being handheld.
 
-<h8>Sources:</h8>
+
+<h5>Sources:</h5>
 https://www.coolblue.be/en/advice/smartphone-screens.html
 https://www.dexdia.com/blog/printable-grip-strength-norms?srsltid=AfmBOopGyJ4lwKpdszk2zZcXalr49JAjAtzmAt3O33tWswmH5HDN_VLt
 https://doi.org/10.1007/s10071-007-0131-2
