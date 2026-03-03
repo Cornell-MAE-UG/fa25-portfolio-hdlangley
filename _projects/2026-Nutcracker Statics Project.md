@@ -3,7 +3,7 @@ layout: project
 title: Nutcracker Statics Project
 description: Class project to optimize the design of a nutcracker for Macedmica nuts
 technologies: [Nut Cracker]
-image: assets/images/Nut Cracker Image.jpeg
+image: assets/images/nut-cracker-image.jpeg
 ---
 
 <h5>Problem Statement and Objective:</h5>
@@ -22,7 +22,7 @@ The primary constraints are based on the force required to break a typical Macad
 <h5>Problem Approach and Solution:</h5>
 Starting off by making a free body diagram of the nutcracker reveals the applied forces and what equilibrium equation can be applied.
 
-![Nutcracker free body diagram showing applied forces and moment arms labeled as L1, L2, Fa, and Fn around a hinge joint](assets/images/Nutcracker FBD.png)
+![Nutcracker free body diagram showing applied forces and moment arms labeled as L1, L2, Fa, and Fn around a hinge joint](assets/images/nutcracker-fbd.png)
 
 Using the sum of the moments about the origin (the joint of the nutcracker) the height and lenght ratio of the relevant triangles can be calculated.
 $$\sum M_0 = L_2 \times F_a - L_1 \times F_n = 0$$
@@ -38,7 +38,7 @@ Assuming the nutcracker holds the nut at an offset from the hinge at a distance 
 $$\frac { L _ { 2 } } { L _ { 1 } } = 7.4 \Rightarrow 4 \text{ cm} ( 7.4 ) = L _ { 2 } = 29.6 \text{ cm}$$
 
 <h5>Design Diagram:</h5>
-![Nutcracker design diagram with dimensions showing handle length of 29.6 cm and nut position at 4 cm from hinge](assets/images/Nutcracker Diagram.png)
+![Nutcracker design diagram with dimensions showing handle length of 29.6 cm and nut position at 4 cm from hinge](assets/images/nutcracker-diagram.png)
 
 *Note: Diagram is not drawn to scale.*
 
