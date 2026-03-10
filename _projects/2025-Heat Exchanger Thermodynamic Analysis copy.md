@@ -122,12 +122,12 @@ We performed two trials of the experiment with the same starting temperature in 
 $$
 
 \begin{aligned}
-T_{c,\text{in}} & : \text{Inlet temperature (cold)} $$
-T_{c,\text{out}} & : \text{Outlet temperature (cold)} $$
-T_{h,\text{in}} & : \text{Inlet temperature (hot)} $$
-T_{h,\text{out}} & : \text{Outlet temperature (hot)} $$[6pt]
-\dot{m}_h & : \text{Mass flow rate (hot)} $$
-\dot{m}_c & : \text{Mass flow rate (cold)} $$
+T_{c,\text{in}} & : \text{Inlet temperature (cold)} \\
+T_{c,\text{out}} & : \text{Outlet temperature (cold)} \\
+T_{h,\text{in}} & : \text{Inlet temperature (hot)} \\
+T_{h,\text{out}} & : \text{Outlet temperature (hot)} \\[6pt]
+\dot{m}_h & : \text{Mass flow rate (hot)} \\
+\dot{m}_c & : \text{Mass flow rate (cold)} \\
 c_p & : \text{Specific heat of water}
 \end{aligned}
 
@@ -136,17 +136,9 @@ $$
 
 <h6>Mass Balance</h6>
 
+$$\frac{dm_h}{dt} = 0 \quad \Rightarrow \quad \dot{m}_{h,\text{in}} = \dot{m}_{h,\text{out}}$$
 
-$$
-
-\frac{dm_h}{dt} = 0
-\quad \Rightarrow \quad
-\dot{m}_{h,\text{in}} = \dot{m}_{h,\text{out}}
-
-$$
-
-
-$$
+$$\frac{dm_c}{dt} = 0 \quad \Rightarrow \quad \dot{m}_{c,\text{in}} = \dot{m}_{c,\text{out}}$$
 
 \frac{dm_c}{dt} = 0
 \quad \Rightarrow \quad
@@ -157,45 +149,16 @@ $$
 
 <h6>Energy Balance</h6>
 (assuming steady state, neglibale PE, KE and work flow rate)
-$$
-\frac{dE_{cv}}{dt}=
-0
-=
-\dot{Q}_{cv}
-+
-\dot{m}_h c_p (T_{h,\text{in}} - T_{h,\text{out}})
-+
-\dot{m}_c c_p (T_{c,\text{out}} - T_{c,\text{in}})
-$$
 
+$$\frac{dE_{cv}}{dt} = 0 = \dot{Q}_{cv} + \dot{m}_h c_p (T_{h,\text{in}} - T_{h,\text{out}}) + \dot{m}_c c_p (T_{c,\text{out}} - T_{c,\text{in}})$$
 
-$$
-
-\dot{Q}_{cv}
-=
-\dot{m} c_p \left( (T_{h,\text{out}} + T_{c,\text{out}}) - (T_{c,\text{in}} + T_{h,\text{in}}) \right)
-
-$$
+$$\dot{Q}_{cv} = \dot{m} c_p \left( (T_{h,\text{out}} + T_{c,\text{out}}) - (T_{c,\text{in}} + T_{h,\text{in}}) \right)$$
 
 
 
 <h6>Entropy Balance</h6>
 
-
-$$
-
-0
-=
-\sum \dot{m}_{in} s_{in}
--
-\sum \dot{m}_{out} s_{out}
-+
-\dot{S}_{gen}
-+
-\int \frac{dQ}{T_{b}}
-
-$$
-
+$$0 = \sum \dot{m}_{in} s_{in} - \sum \dot{m}_{out} s_{out} + \dot{S}_{gen} + \int \frac{dQ}{T_{b}}$$
 
 $$
 
@@ -207,7 +170,6 @@ $$
 
 $$
 
-
 $$
 
 \dot{S}_{gen}
@@ -215,7 +177,7 @@ $$
 \dot{m} c_p \left(\ln\!\left(\frac{T_{h,\text{out}}}{T_{h,\text{in}}}\right)
 +
  \ln\!\left(\frac{T_{c,\text{out}}}{T_{c,\text{in}}}\right)\right) - \int \frac{dQ}{T_{b}}
-$$e 0
+\ge 0
 
 $$
 
