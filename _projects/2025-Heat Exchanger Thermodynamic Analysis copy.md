@@ -119,6 +119,7 @@ We performed two trials of the experiment with the same starting temperature in 
 
 <h6>Variable Definitions</h6>
 
+\[
 
 \begin{aligned}
 T_{c,\text{in}} & : \text{Inlet temperature (cold)} \\
@@ -130,19 +131,28 @@ T_{h,\text{out}} & : \text{Outlet temperature (hot)} \\[6pt]
 c_p & : \text{Specific heat of water}
 \end{aligned}
 
+\]
+
 
 <h6>Mass Balance</h6>
 
+
+\[
 
 \frac{dm_h}{dt} = 0
 \quad \Rightarrow \quad
 \dot{m}_{h,\text{in}} = \dot{m}_{h,\text{out}}
 
+\]
 
+
+\[
 
 \frac{dm_c}{dt} = 0
 \quad \Rightarrow \quad
 \dot{m}_{c,\text{in}} = \dot{m}_{c,\text{out}}
+
+\]
 
 
 <h6>Energy Balance</h6>
@@ -159,14 +169,20 @@ c_p & : \text{Specific heat of water}
 \]
 
 
+\[
+
 \dot{Q}_{cv}
 =
 \dot{m} c_p \left( (T_{h,\text{out}} + T_{c,\text{out}}) - (T_{c,\text{in}} + T_{h,\text{in}}) \right)
+
+\]
 
 
 
 <h6>Entropy Balance</h6>
 
+
+\[
 
 0
 =
@@ -178,8 +194,10 @@ c_p & : \text{Specific heat of water}
 +
 \int \frac{dQ}{T_{b}}
 
+\]
 
 
+\[
 
 \dot{S}_{gen}
 =
@@ -187,7 +205,10 @@ c_p & : \text{Specific heat of water}
 +
 \dot{m}_c c_p \ln\!\left(\frac{T_{c,\text{out}}}{T_{c,\text{in}}}\right) - \int \frac{dQ}{T_{b}}
 
+\]
 
+
+\[
 
 \dot{S}_{gen}
 =
@@ -195,6 +216,8 @@ c_p & : \text{Specific heat of water}
 +
  \ln\!\left(\frac{T_{c,\text{out}}}{T_{c,\text{in}}}\right)\right) - \int \frac{dQ}{T_{b}}
 \ge 0
+
+\]
 
 
 <figure style="max-width:600px; margin:0 auto;">
