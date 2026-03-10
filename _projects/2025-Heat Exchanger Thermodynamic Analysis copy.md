@@ -90,7 +90,7 @@ We performed two trials of the experiment with the same starting temperature in 
 
 <figure style="max-width:600px; margin:0 auto; text-align:center">
   <img src="{{ '/assets/images/Heat Exchanger Setup.jpg' | relative_url }}" alt="Short description" style="width:75%; height:75%; transform:rotate(270deg);">
-  <figcaption style="font-size:0.9em; color:#666; text-align:center;">Heat Exchanger Flow Setup</figcaption>
+  <figcaption>Heat Exchanger Flow Setup</figcaption>
 </figure>
 
 <html lang="en">
@@ -139,12 +139,6 @@ $$
 $$\frac{dm_h}{dt} = 0 \quad \Rightarrow \quad \dot{m}_{h,\text{in}} = \dot{m}_{h,\text{out}}$$
 
 $$\frac{dm_c}{dt} = 0 \quad \Rightarrow \quad \dot{m}_{c,\text{in}} = \dot{m}_{c,\text{out}}$$
-
-\frac{dm_c}{dt} = 0
-\quad \Rightarrow \quad
-\dot{m}_{c,\text{in}} = \dot{m}_{c,\text{out}}
-
-$$
 
 
 <h6>Energy Balance</h6>
