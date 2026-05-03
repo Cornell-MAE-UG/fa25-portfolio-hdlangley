@@ -63,6 +63,22 @@ footer {
   border-radius: 8px;
 }
 
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+// Constrain images within project content
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
 .project-item h3 {
   margin-top: 15px;
   font-size: 1.25em;
